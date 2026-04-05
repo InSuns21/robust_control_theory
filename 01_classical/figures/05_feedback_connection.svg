@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="360" viewBox="0 0 1180 360">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="#1f2937"/>
+    </marker>
+  </defs>
+  <rect width="1180" height="360" fill="#ffffff"/>
+  <text x="48" y="44" font-size="28" font-family="Segoe UI, Arial">フィードバック接続の等価化</text>
+
+  <text x="70" y="165" font-size="24" font-family="Segoe UI, Arial">入力 R</text>
+  <line x1="150" y1="156" x2="235" y2="156" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+  <circle cx="270" cy="156" r="24" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+  <text x="270" y="164" text-anchor="middle" font-size="28" font-family="Segoe UI Symbol, Segoe UI, Arial">Σ</text>
+  <line x1="294" y1="156" x2="390" y2="156" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="390" y="121" width="150" height="70" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="465" y="165" text-anchor="middle" font-size="30" font-family="Times New Roman, Times, serif">G</text>
+  <line x1="540" y1="156" x2="650" y2="156" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="670" y="165" font-size="24" font-family="Segoe UI, Arial">出力 Y</text>
+
+  <line x1="628" y1="156" x2="628" y2="280" stroke="#1f2937" stroke-width="3"/>
+  <line x1="628" y1="280" x2="500" y2="280" stroke="#1f2937" stroke-width="3"/>
+  <rect x="380" y="250" width="120" height="60" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+  <text x="440" y="288" text-anchor="middle" font-size="30" font-family="Times New Roman, Times, serif">H</text>
+  <line x1="380" y1="280" x2="270" y2="280" stroke="#1f2937" stroke-width="3"/>
+  <line x1="270" y1="280" x2="270" y2="180" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <text x="770" y="165" font-size="24" font-family="Segoe UI, Arial">等価伝達関数</text>
+  <rect x="930" y="121" width="200" height="70" rx="10" fill="#f3e8ff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="1030" y="165" text-anchor="middle" font-size="28" font-family="Times New Roman, Times, serif">G / (1 + G H)</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="360" viewBox="0 0 1020 360">
+  <rect width="1020" height="360" fill="#ffffff"/>
+  <text x="40" y="36" font-size="24" font-family="Segoe UI, Arial">強制振動のイメージ</text>
+  <text x="80" y="80" font-size="22" font-family="Segoe UI, Arial">時間応答</text>
+  <line x1="80" y1="280" x2="470" y2="280" stroke="#1f2937" stroke-width="3"/>
+  <line x1="80" y1="280" x2="80" y2="100" stroke="#1f2937" stroke-width="3"/>
+  <path d="M80 210 C120 120, 150 90, 200 170 C240 235, 280 150, 330 185 C370 212, 420 175, 470 190" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <path d="M80 245 C120 200, 160 175, 220 185 C300 200, 380 190, 470 190" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="300" y="165" font-size="18" font-family="Segoe UI, Arial">過渡成分が減衰</text>
+  <text x="330" y="214" font-size="18" font-family="Segoe UI, Arial">定常成分が残る</text>
+  <text x="580" y="80" font-size="22" font-family="Segoe UI, Arial">振幅と周波数</text>
+  <line x1="560" y1="280" x2="960" y2="280" stroke="#1f2937" stroke-width="3"/>
+  <line x1="560" y1="280" x2="560" y2="100" stroke="#1f2937" stroke-width="3"/>
+  <path d="M560 265 C620 250, 680 220, 730 130 C760 80, 790 85, 825 150 C860 210, 910 240, 960 255" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <text x="760" y="70" font-size="18" font-family="Segoe UI, Arial">共振ピーク</text>
+  <text x="932" y="300" font-size="18" font-family="Segoe UI, Arial">ω</text>
+</svg>

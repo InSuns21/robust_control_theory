@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <rect width="900" height="360" fill="#ffffff"/>
+  <text x="40" y="38" font-size="24" font-family="Segoe UI, Arial">時間応答指標の模式図</text>
+  <line x1="90" y1="300" x2="830" y2="300" stroke="#1f2937" stroke-width="3"/>
+  <line x1="90" y1="300" x2="90" y2="60" stroke="#1f2937" stroke-width="3"/>
+  <line x1="90" y1="120" x2="830" y2="120" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8 6"/>
+  <path d="M90 300 C150 240, 220 90, 330 105 C430 120, 510 122, 830 120" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <line x1="200" y1="300" x2="200" y2="185" stroke="#ef4444" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="580" y1="300" x2="580" y2="120" stroke="#059669" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="150" y="178" font-size="18" font-family="Segoe UI, Arial" fill="#ef4444">立ち上がり時間</text>
+  <text x="595" y="168" font-size="18" font-family="Segoe UI, Arial" fill="#059669">整定時間</text>
+  <text x="295" y="92" font-size="18" font-family="Segoe UI, Arial">オーバーシュート</text>
+</svg>

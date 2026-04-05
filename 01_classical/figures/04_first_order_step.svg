@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320">
+  <rect width="860" height="320" fill="#ffffff"/>
+  <text x="40" y="38" font-size="24" font-family="Segoe UI, Arial">一次系のステップ応答</text>
+  <line x1="90" y1="260" x2="800" y2="260" stroke="#1f2937" stroke-width="3"/>
+  <line x1="90" y1="260" x2="90" y2="60" stroke="#1f2937" stroke-width="3"/>
+  <line x1="90" y1="100" x2="800" y2="100" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="808" y="266" font-size="18" font-family="Segoe UI, Arial">t</text>
+  <text x="72" y="70" font-size="18" font-family="Segoe UI, Arial">y</text>
+  <text x="808" y="106" font-size="18" font-family="Segoe UI, Arial">最終値</text>
+  <path d="M90 260 C170 180, 270 135, 410 112 C560 100, 680 98, 800 100" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <line x1="260" y1="260" x2="260" y2="154" stroke="#ef4444" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="230" y="148" font-size="18" font-family="Segoe UI, Arial" fill="#ef4444">時定数 T</text>
+</svg>

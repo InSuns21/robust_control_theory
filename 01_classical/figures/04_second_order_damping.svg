@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
+  <rect width="900" height="340" fill="#ffffff"/>
+  <text x="40" y="38" font-size="24" font-family="Segoe UI, Arial">二次系の減衰係数と応答</text>
+  <line x1="90" y1="280" x2="830" y2="280" stroke="#1f2937" stroke-width="3"/>
+  <line x1="90" y1="280" x2="90" y2="60" stroke="#1f2937" stroke-width="3"/>
+  <line x1="90" y1="110" x2="830" y2="110" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8 6"/>
+  <path d="M90 280 C150 180, 210 20, 320 120 C420 190, 510 85, 610 108 C700 116, 770 110, 830 110" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <path d="M90 280 C170 220, 260 165, 380 132 C500 113, 650 109, 830 110" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <text x="650" y="92" font-size="20" font-family="Segoe UI, Arial" fill="#dc2626">小さい ζ</text>
+  <text x="650" y="140" font-size="20" font-family="Segoe UI, Arial" fill="#2563eb">大きい ζ</text>
+  <text x="838" y="286" font-size="18" font-family="Segoe UI, Arial">t</text>
+  <text x="72" y="70" font-size="18" font-family="Segoe UI, Arial">y</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="300" viewBox="0 0 1120 300">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="#1f2937"/>
+    </marker>
+  </defs>
+  <rect width="1120" height="300" fill="#ffffff"/>
+  <text x="48" y="44" font-size="28" font-family="Segoe UI, Arial">直列接続と等価化</text>
+
+  <text x="70" y="138" font-size="24" font-family="Segoe UI, Arial">入力 U</text>
+  <line x1="150" y1="130" x2="235" y2="130" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="235" y="95" width="130" height="70" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="300" y="139" text-anchor="middle" font-size="28" font-family="Times New Roman, Times, serif">G<tspan baseline-shift="sub" font-size="18">1</tspan></text>
+  <line x1="365" y1="130" x2="460" y2="130" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="460" y="95" width="130" height="70" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+  <text x="525" y="139" text-anchor="middle" font-size="28" font-family="Times New Roman, Times, serif">G<tspan baseline-shift="sub" font-size="18">2</tspan></text>
+  <line x1="590" y1="130" x2="685" y2="130" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="705" y="138" font-size="24" font-family="Segoe UI, Arial">出力 Y</text>
+
+  <text x="70" y="236" font-size="22" font-family="Segoe UI, Arial">等価化すると</text>
+  <line x1="235" y1="228" x2="345" y2="228" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="345" y="193" width="220" height="70" rx="10" fill="#f3e8ff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="455" y="237" text-anchor="middle" font-size="28" font-family="Times New Roman, Times, serif">G<tspan baseline-shift="sub" font-size="18">2</tspan> G<tspan baseline-shift="sub" font-size="18">1</tspan></text>
+  <line x1="565" y1="228" x2="675" y2="228" stroke="#1f2937" stroke-width="3" marker-end="url(#arrow)"/>
+</svg>
