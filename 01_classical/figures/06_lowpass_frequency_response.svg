@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#ffffff"/>
+  <text x="40" y="42" font-size="28" font-family="Segoe UI, Arial">一次遅れ系の周波数特性</text>
+
+  <text x="60" y="86" font-size="22" font-family="Segoe UI, Arial">振幅比</text>
+  <line x1="90" y1="190" x2="560" y2="190" stroke="#1f2937" stroke-width="2"/>
+  <line x1="90" y1="80" x2="90" y2="190" stroke="#1f2937" stroke-width="2"/>
+  <path d="M 90 100 C 180 102, 240 106, 300 118 C 360 132, 420 152, 480 170 C 520 182, 545 187, 560 190" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <line x1="320" y1="80" x2="320" y2="190" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="300" y="214" font-size="22" font-family="Times New Roman, Times, serif">ω = 1/T</text>
+  <text x="140" y="112" font-size="22" font-family="Segoe UI, Arial">低周波ではほぼ 1</text>
+  <text x="374" y="168" font-size="22" font-family="Segoe UI, Arial">高周波で減少</text>
+
+  <text x="650" y="86" font-size="22" font-family="Segoe UI, Arial">位相</text>
+  <line x1="690" y1="190" x2="1120" y2="190" stroke="#1f2937" stroke-width="2"/>
+  <line x1="690" y1="80" x2="690" y2="190" stroke="#1f2937" stroke-width="2"/>
+  <path d="M 690 95 C 760 98, 815 120, 870 145 C 925 170, 980 184, 1040 188 C 1075 189, 1100 190, 1120 190" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <line x1="920" y1="80" x2="920" y2="190" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="896" y="214" font-size="22" font-family="Times New Roman, Times, serif">ω = 1/T</text>
+  <text x="744" y="110" font-size="22" font-family="Segoe UI, Arial">0 度付近</text>
+  <text x="998" y="178" font-size="22" font-family="Segoe UI, Arial">-90 度へ近づく</text>
+</svg>

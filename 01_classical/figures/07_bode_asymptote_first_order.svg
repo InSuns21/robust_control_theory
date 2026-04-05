@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="380" viewBox="0 0 1180 380">
+  <rect width="1180" height="380" fill="#ffffff"/>
+  <text x="40" y="42" font-size="28" font-family="Segoe UI, Arial">一次極の折れ線近似</text>
+  <line x1="120" y1="300" x2="1080" y2="300" stroke="#1f2937" stroke-width="3"/>
+  <line x1="170" y1="80" x2="170" y2="320" stroke="#1f2937" stroke-width="3"/>
+  <line x1="610" y1="80" x2="610" y2="300" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <path d="M 170 120 C 330 120, 470 128, 610 150 C 780 178, 920 235, 1080 275" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <path d="M 170 120 L 610 120 L 1080 277" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="12 8"/>
+
+  <text x="694" y="150" font-size="22" font-family="Segoe UI, Arial">正確な曲線</text>
+  <text x="760" y="252" font-size="22" font-family="Segoe UI, Arial">折れ線近似</text>
+  <text x="580" y="326" font-size="22" font-family="Times New Roman, Times, serif">ω<tspan baseline-shift="sub" font-size="14">b</tspan> = 1/T</text>
+  <text x="206" y="106" font-size="22" font-family="Segoe UI, Arial">低周波では 0 dB</text>
+  <text x="786" y="294" font-size="22" font-family="Segoe UI, Arial">以後 -20 dB/dec</text>
+</svg>

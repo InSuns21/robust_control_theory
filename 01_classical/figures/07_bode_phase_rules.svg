@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="390" viewBox="0 0 1180 390">
+  <rect width="1180" height="390" fill="#ffffff"/>
+  <text x="40" y="42" font-size="28" font-family="Segoe UI, Arial">位相近似の基本則</text>
+
+  <line x1="110" y1="310" x2="1080" y2="310" stroke="#1f2937" stroke-width="3"/>
+  <line x1="170" y1="90" x2="170" y2="330" stroke="#1f2937" stroke-width="3"/>
+  <line x1="420" y1="90" x2="420" y2="310" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="610" y1="90" x2="610" y2="310" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="800" y1="90" x2="800" y2="310" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <path d="M 170 125 L 420 125 L 800 285 L 1080 285" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <path d="M 170 285 L 420 285 L 800 125 L 1080 125" fill="none" stroke="#dc2626" stroke-width="4"/>
+
+  <text x="890" y="132" font-size="22" font-family="Segoe UI, Arial">一次零点: +90 度へ</text>
+  <text x="890" y="292" font-size="22" font-family="Segoe UI, Arial">一次極: -90 度へ</text>
+  <text x="356" y="338" font-size="22" font-family="Times New Roman, Times, serif">ω<tspan baseline-shift="sub" font-size="14">b</tspan>/10</text>
+  <text x="585" y="338" font-size="22" font-family="Times New Roman, Times, serif">ω<tspan baseline-shift="sub" font-size="14">b</tspan></text>
+  <text x="770" y="338" font-size="22" font-family="Times New Roman, Times, serif">10ω<tspan baseline-shift="sub" font-size="14">b</tspan></text>
+  <text x="96" y="112" font-size="22" font-family="Segoe UI, Arial">度</text>
+  <text x="1026" y="338" font-size="22" font-family="Segoe UI, Arial">ω</text>
+</svg>
