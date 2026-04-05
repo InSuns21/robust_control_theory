@@ -11,8 +11,8 @@
   <path d="M 170 125 L 420 125 L 800 285 L 1080 285" fill="none" stroke="#2563eb" stroke-width="4"/>
   <path d="M 170 285 L 420 285 L 800 125 L 1080 125" fill="none" stroke="#dc2626" stroke-width="4"/>
 
-  <text x="890" y="132" font-size="22" font-family="Segoe UI, Arial">一次零点: +90 度へ</text>
-  <text x="890" y="292" font-size="22" font-family="Segoe UI, Arial">一次極: -90 度へ</text>
+  <text x="916" y="116" font-size="22" font-family="Segoe UI, Arial">一次零点: +90 度へ</text>
+  <text x="916" y="304" font-size="22" font-family="Segoe UI, Arial">一次極: -90 度へ</text>
   <text x="356" y="338" font-size="22" font-family="Times New Roman, Times, serif">ω<tspan baseline-shift="sub" font-size="14">b</tspan>/10</text>
   <text x="585" y="338" font-size="22" font-family="Times New Roman, Times, serif">ω<tspan baseline-shift="sub" font-size="14">b</tspan></text>
   <text x="770" y="338" font-size="22" font-family="Times New Roman, Times, serif">10ω<tspan baseline-shift="sub" font-size="14">b</tspan></text>

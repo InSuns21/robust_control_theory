@@ -13,7 +13,7 @@
 
   <line x1="720" y1="140" x2="1120" y2="140" stroke="#1f2937" stroke-width="2"/>
   <line x1="720" y1="80" x2="720" y2="200" stroke="#1f2937" stroke-width="2"/>
-  <path d="M 720 154 C 750 108, 780 108, 810 154 C 840 200, 870 200, 900 154 C 930 108, 960 108, 990 154 C 1020 200, 1050 200, 1080 154 C 1100 184, 1110 184, 1120 166" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <path d="M 720 154 C 750 108, 780 108, 810 154 C 840 200, 870 200, 900 154 C 930 108, 960 108, 990 154 C 1020 200, 1050 200, 1080 154 C 1090 138, 1105 138, 1120 154" fill="none" stroke="#dc2626" stroke-width="4"/>
   <text x="748" y="74" font-size="24" font-family="Segoe UI, Arial">出力</text>
   <text x="748" y="232" font-size="22" font-family="Segoe UI, Arial">振幅 |G(jω)|A、位相 ∠G(jω)</text>
 </svg>

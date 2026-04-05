@@ -14,8 +14,8 @@
 
   <line x1="300" y1="330" x2="700" y2="180" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
   <path d="M 390 330 A 90 90 0 0 1 381 295" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <text x="552" y="238" font-size="24" font-family="Times New Roman, Times, serif">G(jω)</text>
-  <text x="402" y="292" font-size="22" font-family="Times New Roman, Times, serif">∠G(jω)</text>
-  <text x="480" y="175" font-size="22" font-family="Segoe UI, Arial">長さが振幅比</text>
-  <text x="738" y="184" font-size="22" font-family="Segoe UI, Arial">各 ω に対して 1 点</text>
+  <text x="575" y="265" font-size="24" font-family="Times New Roman, Times, serif">G(jω)</text>
+  <text x="430" y="286" font-size="22" font-family="Times New Roman, Times, serif">∠G(jω)</text>
+  <text x="470" y="155" font-size="22" font-family="Segoe UI, Arial">長さが振幅比</text>
+  <text x="760" y="176" font-size="22" font-family="Segoe UI, Arial">各 ω に対して 1 点</text>
 </svg>
