@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <rect width="900" height="320" fill="#ffffff"/>
+  <text x="40" y="40" font-size="24" font-family="Segoe UI, Arial">一次系と二次系の応答比較</text>
+  <line x1="80" y1="260" x2="820" y2="260" stroke="#1f2937" stroke-width="3"/>
+  <line x1="80" y1="260" x2="80" y2="60" stroke="#1f2937" stroke-width="3"/>
+  <line x1="80" y1="100" x2="820" y2="100" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8 6"/>
+  <path d="M80 260 C150 190, 250 140, 380 115 C520 102, 670 100, 820 100" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <path d="M80 260 C160 170, 240 40, 350 115 C440 165, 540 85, 640 100 C720 108, 770 102, 820 100" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <text x="680" y="92" font-size="20" font-family="Segoe UI, Arial" fill="#2563eb">一次系</text>
+  <text x="660" y="150" font-size="20" font-family="Segoe UI, Arial" fill="#dc2626">二次系</text>
+</svg>

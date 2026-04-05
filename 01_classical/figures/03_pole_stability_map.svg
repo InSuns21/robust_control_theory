@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <rect width="900" height="360" fill="#ffffff"/>
+  <text x="40" y="40" font-size="24" font-family="Segoe UI, Arial">極の位置と安定性</text>
+  <line x1="450" y1="70" x2="450" y2="300" stroke="#1f2937" stroke-width="3"/>
+  <line x1="120" y1="185" x2="780" y2="185" stroke="#1f2937" stroke-width="3"/>
+  <text x="790" y="191" font-size="18" font-family="Segoe UI, Arial">Re(s)</text>
+  <text x="458" y="60" font-size="18" font-family="Segoe UI, Arial">Im(s)</text>
+  <text x="200" y="100" font-size="20" font-family="Segoe UI, Arial" fill="#059669">安定で振動的</text>
+  <text x="200" y="270" font-size="20" font-family="Segoe UI, Arial" fill="#059669">安定で非振動的</text>
+  <text x="500" y="100" font-size="20" font-family="Segoe UI, Arial" fill="#dc2626">不安定で振動的</text>
+  <text x="560" y="270" font-size="20" font-family="Segoe UI, Arial" fill="#dc2626">不安定</text>
+  <text x="314" y="124" font-size="22" font-family="Segoe UI, Arial" fill="#2563eb">x</text>
+  <text x="314" y="254" font-size="22" font-family="Segoe UI, Arial" fill="#2563eb">x</text>
+  <text x="594" y="124" font-size="22" font-family="Segoe UI, Arial" fill="#dc2626">x</text>
+  <text x="594" y="254" font-size="22" font-family="Segoe UI, Arial" fill="#dc2626">x</text>
+</svg>

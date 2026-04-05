@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <rect width="900" height="320" fill="#ffffff"/>
+  <text x="40" y="40" font-size="24" font-family="Segoe UI, Arial">RC 回路のステップ応答</text>
+  <line x1="80" y1="260" x2="820" y2="260" stroke="#1f2937" stroke-width="3"/>
+  <line x1="80" y1="260" x2="80" y2="60" stroke="#1f2937" stroke-width="3"/>
+  <line x1="80" y1="100" x2="820" y2="100" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="830" y="266" font-size="18" font-family="Segoe UI, Arial">t</text>
+  <text x="58" y="70" font-size="18" font-family="Segoe UI, Arial">y</text>
+  <text x="830" y="106" font-size="18" font-family="Segoe UI, Arial">1</text>
+  <path d="M80 260 C150 180, 250 135, 380 112 C500 101, 640 98, 820 100" fill="none" stroke="#2563eb" stroke-width="4"/>
+</svg>

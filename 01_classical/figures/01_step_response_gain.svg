@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <rect width="900" height="320" fill="#ffffff"/>
+  <text x="40" y="40" font-size="24" font-family="Segoe UI, Arial">比例ゲインによるステップ応答の違い</text>
+  <line x1="80" y1="260" x2="820" y2="260" stroke="#1f2937" stroke-width="3"/>
+  <line x1="80" y1="260" x2="80" y2="60" stroke="#1f2937" stroke-width="3"/>
+  <line x1="80" y1="100" x2="820" y2="100" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="830" y="266" font-size="18" font-family="Segoe UI, Arial">t</text>
+  <text x="58" y="70" font-size="18" font-family="Segoe UI, Arial">y</text>
+  <text x="830" y="106" font-size="18" font-family="Segoe UI, Arial">目標値</text>
+  <path d="M80 260 C140 180, 220 150, 320 130 C420 115, 520 107, 820 102" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <path d="M80 260 C170 225, 270 190, 420 160 C550 140, 680 125, 820 118" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <text x="650" y="130" font-size="20" font-family="Segoe UI, Arial" fill="#2563eb">小さい K</text>
+  <text x="650" y="92" font-size="20" font-family="Segoe UI, Arial" fill="#dc2626">大きい K</text>
+</svg>
