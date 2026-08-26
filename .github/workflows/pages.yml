@@ -1,0 +1,55 @@
+name: Deploy control labs to GitHub Pages
+
+on:
+  pull_request:
+    paths:
+      - "docs/**"
+      - ".github/workflows/pages.yml"
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check JavaScript syntax
+        run: node --check docs/bipedal-control/app.js
+      - name: Check required entry points
+        run: |
+          test -f docs/index.html
+          test -f docs/bipedal-control/index.html
+          test -f docs/bipedal-control/style.css
+          grep -q 'app.js' docs/bipedal-control/index.html
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./docs
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
